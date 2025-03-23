@@ -16,6 +16,3 @@ from datasets import load_dataset
 # Load the dataset
 dataset = load_dataset("shahxeebhassan/human_vs_ai_sentences")
 
-# Access the train and test splits
-train_dataset = dataset['train']
-test_dataset = dataset['test']
